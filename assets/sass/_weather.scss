@@ -7,3 +7,19 @@
     inset: 50% auto auto 50%;
     translate: -50% -50%;
 }
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    &__title {
+        color: $titleColor;
+        @include fluid-type(320px, 1920px, 30px, 60px);
+        margin: 0 0 40px 0;
+
+    }
+
+}
