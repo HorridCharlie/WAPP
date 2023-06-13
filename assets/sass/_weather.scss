@@ -22,4 +22,20 @@
 
     }
 
+    &__form {
+        width: min(100% - 30px, 550px);
+    }
+
+    &__city {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 25px;
+        margin: 0 0 30px 0;
+
+        &::placeholder {
+            text-align: center;
+        }
+    }
 }
